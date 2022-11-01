@@ -1,0 +1,1863 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: GraphikLCG-Regular;
+    src: url(../font/GraphikLCG-Regular.ttf);
+}
+
+@font-face {
+    font-family: GraphikLCG-Semibold;
+    src: url(../font/GraphikLCG-Semibold.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    margin: auto;
+    font-family: GraphikLCG-Regular, serif;
+    font-style: normal;
+    font-size: 16px;
+}
+
+header {
+    height: 95px;
+    display: flex;
+    flex-grow: 1;
+}
+
+.container {
+    max-width: 1370px;
+    display: flex;
+    flex-grow: 1;
+    margin: auto;
+    padding: 0 15px;
+}
+
+header ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    font-weight: 400;
+    size: 15px;
+}
+
+ul li {
+    display: flex;
+    padding: 0 15px;
+}
+
+ul {
+    margin: 0;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    margin-right: 50px;
+}
+
+.button-1 {
+    max-width: 120px;
+    max-height: 45px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    color: black;
+    padding: 10px 36px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.button-2 {
+    max-width: 120px;
+    max-height: 45px;
+    background: #FF6336;
+    border: 1px solid #FF6336;
+    color: white;
+    padding: 10px 36px;
+    text-decoration: none;
+}
+
+.border {
+    border: 1px solid #E5E5E5;
+}
+
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 172px;
+}
+
+.banner-text h1 {
+    max-width: 552px;
+    max-height: 210px;
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 70px;
+    margin-bottom: 0;
+    margin-top: 129px;
+    font-family: GraphikLCG-Semibold, serif;
+}
+
+.banner-text_1 p {
+    max-width: 471px;
+    max-height: 140px;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 35px;
+    margin-top: 51px;
+    margin-bottom: 50px;
+}
+
+.button-banner {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.button-4 {
+    max-width: 160px;
+    max-height: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    color: black;
+    padding: 21px 36px;
+    margin: 5px;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.button-3 {
+    background: #FF6336;
+    border: 1px solid #FF6336;
+    color: white;
+    padding: 21px 43px;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.banner-text_2 p {
+    font-weight: 400;
+    font-size: 0.93rem;
+    line-height: 25px;
+}
+
+.banner-img {
+    max-width: 759px;
+    max-height: 529px;
+    display: flex;
+    justify-content: center;
+    margin-top: 151px;
+}
+
+.companies {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: #FF9C7D;
+    padding-top: 108px;
+    padding-bottom: 108px;
+}
+
+.companies-text h2 {
+    font-family: GraphikLCG-Semibold, serif;
+    display: flex;
+    align-items: center;
+    max-width: 720px;
+    font-weight: 700;
+    font-size: 3.12rem;
+    line-height: 60px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.logo-companies {
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+
+.article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container-article {
+    display: flex;
+    padding: 90px 75px;
+    align-items: center;
+}
+
+.article-text {
+    padding-right: 140px;
+}
+
+.article-text_1 {
+    padding-left: 140px;
+}
+
+.article-text_2 h2 {
+    font-family: GraphikLCG-Semibold, serif;
+    font-weight: 600;
+    font-size: 3.12rem;
+    line-height: 60px;
+}
+
+.article-text_3 p {
+    max-width: 491px;
+    max-height: 120px;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 30px;
+}
+
+.start {
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 70px;
+    padding-left: 0;
+    color: black;
+    text-decoration: none;
+}
+
+.article-img {
+    margin-bottom: 20px;
+}
+
+.article-images {
+    max-width: 632px;
+}
+
+.container-card {
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    background: #FFF8E4;
+    padding-top: 147px;
+    padding-bottom: 110px;
+}
+
+.card-text h2 {
+    font-family: GraphikLCG-Semibold, serif;
+    font-weight: 600;
+    font-size: 3.12rem;
+    line-height: 60px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.col-4 {
+    max-width: 30%;
+    max-height: 300px;
+    padding: 15px 15px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.card {
+    text-align: center;
+    padding: 0px 15px;
+}
+
+.card-img {
+    padding-top: 40px;
+}
+
+.card__title {
+    font-weight: 600;
+    font-size: 1.56rem;
+    line-height: 35px;
+    padding: 25px;
+}
+
+.card__description {
+    font-weight: 400;
+    font-size: 1.12rem;
+    line-height: 25px;
+}
+
+.prod {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding-top: 154px;
+    padding-bottom: 75px;
+    padding-left: 75px;
+}
+
+.prod-text h2 {
+    font-family: GraphikLCG-Semibold, serif;
+    font-weight: 600;
+    font-size: 3.12rem;
+    line-height: 60px;
+    margin-top: 0;
+    justify-content: flex-start;
+}
+
+.row-1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.learn {
+    font-weight: 600;
+    font-size: 1.12rem;
+    line-height: 30px;
+    padding-left: 0;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: underline;
+    padding-bottom: 50px;
+
+}
+
+.card__title-1 {
+    font-weight: 600;
+    font-size: 1.87rem;
+    line-height: 40px;
+    padding-top: 50px;
+    margin-bottom: 34px;
+    font-family: 'GraphikLCG-Semibold', serif;
+}
+
+.img-p2 {
+    padding-bottom: 36px;
+}
+
+.img-p3 {
+    padding-bottom: 18px;
+}
+
+.card__description-1 {
+    max-width: 390px;
+    font-weight: 400;
+    font-size: 1.12rem;
+    line-height: 30px;
+    padding-bottom: 25px;
+}
+
+.container-chief {
+    max-height: 420px;
+    background: #C9E8F2;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 63px;
+    padding-left: 75px;
+    margin-top: 400px;
+    padding-bottom: 105px;
+}
+
+.chief-text h3 {
+    max-width: 920px;
+    font-weight: 400;
+    font-size: 1.87rem;
+    line-height: 40px;
+    margin-bottom: 23px;
+    margin-top: 0;
+}
+
+.chief-text_1 p {
+    font-weight: 400;
+    font-size: 0.93rem;
+    line-height: 25px;
+    margin-bottom: 14px;
+}
+
+.chief-photo {
+    max-width: 310px;
+}
+
+.container-software {
+    background: #DABC98;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 115px 137px 115px 54px;
+}
+
+.frame-1 {
+    max-width: 176px;
+    max-height: 154px;
+}
+
+.software-text h3 {
+    max-width: 461px;
+    font-weight: 600;
+    font-size: 2.18rem;
+    line-height: 50px;
+    font-family: GraphikLCG-Semibold, serif;
+}
+
+.software-img {
+    max-width: 128px;
+}
+
+.container-bird {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bird-img {
+    max-width: 1023px;
+}
+
+.bird-text h1 {
+    max-width: 791px;
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 75px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 165px;
+    font-family: GraphikLCG-Semibold, serif;
+}
+
+.bird-text_1 p {
+    max-width: 539px;
+    font-weight: 400;
+    font-size: 1.56rem;
+    line-height: 30px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.button-5 {
+    max-width: 193px;
+    background: #FF6336;
+    border: 1px solid #FF6336;
+    color: white;
+    padding: 22px 20px;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 160px;
+}
+
+.container-next {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: #FF9C7D;
+}
+
+.next-text h1 {
+    max-width: 784px;
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 75px;
+    text-align: center;
+    padding-top: 60px;
+    font-family: GraphikLCG-Semibold, serif;
+    margin-bottom: 0;
+}
+
+.next-text_1 p {
+    font-weight: 400;
+    font-size: 1.12rem;
+}
+
+.button-6 {
+    background: black;
+    color: white;
+    padding: 20px 40px;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 130px;
+}
+
+footer {
+    background: #EEEEEE;
+}
+
+.footer {
+    max-height: 700px;
+    padding: 92px 75px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-text h4 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 50px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.footer-text_1 p {
+    font-weight: 400;
+    font-size: 1.12rem;
+    line-height: 30px;
+    max-width: 290px;
+}
+
+.footer-img {
+    padding: 28px 0;
+}
+
+.read {
+    font-weight: 600;
+    font-size: 1.12rem;
+    padding-top: 15px;
+    color: black;
+    text-decoration: none;
+    font-family: GraphikLCG-Semibold, serif;
+}
+
+.product {
+    font-weight: 600;
+    font-size: 1.12rem;
+    line-height: 25px;
+    padding-top: 10px;
+    padding-bottom: 21px;
+    font-family: GraphikLCG-Semibold, serif;
+}
+
+.item {
+    display: flex;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 0;
+
+}
+
+.nav {
+    padding-bottom: 15px;
+    font-weight: 400;
+    font-size: 0.93rem;
+    line-height: 15px;
+}
+
+.nav-1 {
+    padding-bottom: 15px;
+    font-weight: 400;
+    font-size: 0.93rem;
+    line-height: 15px;
+    max-width: 138px;
+}
+
+.border-1 {
+    border: 1px solid black;
+    margin: 25px 75px 0;
+}
+
+.end {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 150px 50px 75px;
+}
+
+.end-text p {
+    max-width: 300px;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 15px;
+    margin-right: auto;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.footer-logo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-right: 110px;
+}
+
+.footer-img {
+    max-width: 300px;
+}
+
+
+.end-text_1 p {
+    margin-bottom: 0;
+    width: 109px;
+    font-weight: 400;
+    font-size: 0.75rem;
+    margin-left: 700px;
+}
+
+@media (max-width: 1440px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1280px) {
+    body {
+        font-size: 14px;
+    }
+
+    .banner {
+        padding-bottom: 110px;
+    }
+
+    .banner-text h1 {
+        font-weight: 400;
+        font-size: 3rem;
+        line-height: 50px;
+        margin-top: 50px;
+    }
+
+    .banner-text_1 p {
+        max-width: 439px;
+        font-weight: 300;
+        font-size: 1.5rem;
+        line-height: 32px;
+        margin-top: 25px;
+        margin-bottom: 55px;
+    }
+
+    .button-3 .button-4 {
+        padding: 18px 37px;
+        font-weight: 500;
+    }
+
+    .banner-text {
+        padding-left: 15px;
+    }
+
+    .banner-img {
+        max-width: 710px;
+        max-height: 400px;
+        margin-top: 60px;
+    }
+
+    .companies {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .container-article {
+        padding: 50px 75px;
+    }
+
+    .article-images {
+        max-width: 560px;
+    }
+
+    .article-text_2 h2 {
+        font-size: 3rem;
+        line-height: 50px;
+    }
+
+    .article-text_3 p {
+        font-size: 1.1rem;
+        line-height: 25px;
+    }
+
+    .article-text {
+        padding-right: 80px;
+    }
+
+    .article-text_1 {
+        padding-left: 80px;
+    }
+
+    .start {
+        font-size: 1.1rem;
+    }
+
+    .container-card {
+        padding-top: 110px;
+        padding-bottom: 80px;
+    }
+
+    .card-text h2 {
+        font-size: 3rem;
+    }
+
+    .prod {
+        padding-top: 100px;
+        padding-bottom: 10px;
+    }
+
+    .prod-text h2 {
+        font-size: 2.8rem;
+        line-height: 30px;
+    }
+
+    .container-chief {
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+
+    .chief-text h3 {
+        max-width: 750px;
+        font-size: 1.50rem;
+        line-height: 38px;
+        margin-bottom: 10px;
+    }
+
+    .container-software {
+        padding: 100px 134px 100px 54px;
+    }
+
+    .bird-text h1 {
+        font-size: 3.5rem;
+        padding-top: 130px;
+    }
+
+    .button-5 {
+        margin-bottom: 100px;
+    }
+
+    .next-text h1 {
+        font-size: 3.5rem;
+        line-height: 67px;
+        padding-top: 33px;
+    }
+
+    .button-6 {
+        margin-top: 25px;
+        margin-bottom: 100px;
+    }
+
+    .footer {
+        padding-top: 75px;
+        padding-bottom: 40px;
+    }
+
+    .end {
+        padding: 45px 75px 40px 75px;
+    }
+
+    .end-text_1 p {
+        margin-left: 580px;
+        margin-right: 40px;
+    }
+
+    .footer-text_1 p {
+        font-size: 1rem;
+        line-height: 25px;
+    }
+
+    .border-1 {
+        margin-top: 60px;
+    }
+
+    .footer-logo {
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 1195px) {
+    body {
+        font-size: 12px;
+    }
+
+    .banner-text_1 p {
+        font-size: 1.3rem;
+    }
+
+    .article-text_3 p {
+        font-size: 1rem;
+        line-height: 22px;
+    }
+
+    .article-text {
+        padding-right: 80px;
+    }
+
+    .article-text_1 {
+        padding-left: 80px;
+    }
+
+    .article-images {
+        max-width: 520px;
+    }
+
+    .prod-text h2 {
+        font-size: 2.5rem;
+    }
+
+    .bird-text h1 {
+        font-size: 3.0rem;
+        padding-top: 100px;
+    }
+
+    .next-text h1 {
+        font-size: 3rem;
+        margin-top: 10px;
+    }
+
+    .nav {
+        font-size: 0.8rem;
+        line-height: 10px;
+    }
+
+    .nav-1 {
+        font-size: 0.8rem;
+        line-height: 10px;
+    }
+
+    .end {
+        padding: 30px 75px 30px 75px;
+    }
+
+    .border-1 {
+        margin-top: 45px;
+    }
+}
+
+@media (max-width: 1138px) {
+    body {
+        font-size: 12px;
+    }
+
+    .article-images {
+        max-width: 476px;
+        padding-right: 30px;
+    }
+
+    .chief-text h3 {
+        max-width: 640px;
+    }
+
+    .software-text h3 {
+        max-width: 421px;
+        font-size: 2rem;
+    }
+
+    .container-software {
+        padding: 100px 100px 100px 54px;
+    }
+
+    .bird-img {
+        max-width: 1000px;
+    }
+
+    .end-text_1 p {
+        margin-left: 460px;
+    }
+
+    .footer-img {
+        padding: 25px 0;
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 1087px) {
+    body {
+        font-size: 12px;
+    }
+
+    .product {
+        font-size: 1rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .nav .nav-1 {
+        font-size: 0.6rem;
+        line-height: 6px;
+    }
+
+    .footer-text_1 p {
+        font-size: 0.8rem;
+        line-height: 21px;
+    }
+
+    .article-images {
+        max-width: 457px;
+        padding-right: 5px;
+    }
+
+    .banner-img {
+        max-width: 516px;
+        max-height: 359px;
+        margin-top: 60px;
+    }
+
+    .banner {
+        padding-bottom: 80px;
+    }
+
+    .chief-text h3 {
+        max-width: 571px;
+        font-size: 1.3rem;
+        line-height: 30px;
+    }
+
+    .container-software {
+        padding: 70px 100px 70px 54px;
+    }
+
+    .software-text h3 {
+        max-width: 382px;
+        font-size: 1.8rem;
+        line-height: 42px;
+    }
+}
+
+@media (max-width: 980px) {
+    body {
+        font-size: 12px;
+    }
+
+    .software-text h3 {
+        max-width: 382px;
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+
+    .frame-1 {
+        max-width: 157px;
+        margin-right: 20px;
+    }
+
+    .footer-img {
+        padding: 10px 0;
+        max-width: 230px;
+    }
+
+    .footer-text h4 {
+        font-size: 2rem;
+    }
+
+    .product {
+        font-size: 0.8rem;
+    }
+
+    .nav .nav-1 {
+        font-size: 0.5rem;
+        line-height: 5px;
+    }
+
+    .footer-text_1 p {
+        max-width: 213px;
+    }
+
+    .footer {
+        padding: 92px 50px;
+    }
+
+    .chief-text h3 {
+        max-width: 445px;
+        font-size: 1.1rem;
+        line-height: 26px;
+    }
+
+    .chief-photo {
+        max-width: 260px;
+    }
+
+    .software-img {
+        max-width: 85px;
+    }
+
+    .prod-text h2 {
+        font-size: 2rem;
+    }
+
+    .article-images {
+        max-width: 409px;
+        padding-right: 5px;
+    }
+
+    .footer {
+        padding: 46px 50px;
+    }
+
+    .end-text_1 p {
+        margin-left: 273px;
+    }
+
+    ul li {
+        padding: 0 5px;
+    }
+
+    .button-1 {
+        padding: 10px 25px;
+    }
+
+    .button-2 {
+        padding: 10px 25px;
+    }
+
+    .button {
+        margin-right: 100px;
+    }
+
+    .logo {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 921px) {
+    header ul {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 98px;
+    }
+
+    .button {
+        margin-top: 20px;
+    }
+
+    .logo {
+        margin-top: 20px;
+    }
+
+    .banner-text h1 {
+        font-size: 2rem;
+        line-height: 40px;
+        margin-top: 35px;
+    }
+
+    .banner-text_1 p {
+        line-height: 26px;
+    }
+
+    .banner {
+        padding-bottom: 40px;
+    }
+
+    .companies-text h2 {
+        font-size: 2.5rem;
+        line-height: 53px;
+        padding-bottom: 25px;
+    }
+
+    .companies {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .article-text_2 h2 {
+        font-size: 2rem;
+        line-height: 40px;
+    }
+
+    .article-text_3 p {
+        font-size: 1rem;
+        line-height: 19px;
+    }
+
+    .article-images {
+        max-width: 379px;
+    }
+
+    .card-text h2 {
+        font-size: 2rem;
+    }
+
+    .container-card {
+        padding-top: 70px;
+    }
+
+    .col-4 {
+        max-width: 32%;
+        max-height: 280px;
+        margin-bottom: 10px;
+    }
+
+    .prod {
+        padding-top: 60px;
+    }
+
+    .card__title-1 {
+        font-size: 1.5rem;
+        line-height: 0px;
+        padding-top: 44px;
+        margin-bottom: 25px;
+    }
+
+    .card__description-1 {
+        max-width: 374px;
+        font-size: 1rem;
+        line-height: 24px;
+    }
+
+    .container-chief {
+        margin-top: 350px;
+    }
+
+    .software-text h3 {
+        max-width: 317px;
+    }
+
+    .bird-text h1 {
+        font-size: 2.0rem;
+        padding-top: 50px;
+    }
+
+    .bird-text_1 p {
+        font-size: 1.3rem;
+        line-height: 27px;
+        padding-bottom: 15px;
+    }
+
+    .bird-img {
+        max-width: 800px;
+    }
+
+    .button-5 {
+        margin-bottom: 70px;
+    }
+
+    .next-text h1 {
+        font-size: 2rem;
+        margin-top: 5px;
+    }
+
+    .button-6 {
+        margin-top: 15px;
+        margin-bottom: 50px;
+    }
+
+    .footer {
+        flex-direction: column;
+        max-height: none;
+        align-items: center;
+    }
+
+    .footer-logo {
+        align-items: center;
+        padding-bottom: 20px;
+        padding-right: 0;
+    }
+
+    .item {
+        padding-bottom: 5px;
+        padding-left: 0;
+        align-items: center;
+    }
+
+    ul li {
+        text-align: center;
+    }
+
+    .border-1 {
+        margin-top: 0;
+    }
+
+    .button-3 {
+        padding: 10px 20px;
+        font-size: 0.7rem;
+    }
+
+    .button-4 {
+        padding: 10px 20px;
+        font-size: 0.7rem;
+    }
+
+    .banner-text_1 p {
+        font-size: 1rem;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .banner-img {
+        max-width: 400px;
+        margin-top: 40px;
+    }
+
+    .container-article {
+        padding: 30px 75px;
+    }
+
+}
+
+@media (max-width: 855px) {
+    header ul {
+        margin-left: 40px;
+    }
+
+    .companies-text h2 {
+        font-size: 2rem;
+        line-height: 40px;
+        padding-bottom: 10px;
+    }
+
+    .companies {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .logo-companies {
+        flex-wrap: wrap;
+    }
+
+    .article-text_2 h2 {
+        font-size: 1.3rem;
+        line-height: 24px;
+    }
+
+    .article-images {
+        max-width: 348px;
+    }
+
+    .prod-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .col-4 {
+        max-width: 32%;
+        margin-bottom: 20px;
+    }
+
+    .card__description-1 {
+        font-size: 0.8rem;
+        line-height: 19px;
+    }
+
+    .container-chief {
+        margin-top: 264px;
+    }
+
+    .software-text h3 {
+        max-width: 240px;
+    }
+
+    .software-text h3 {
+        font-size: 1.2rem;
+        line-height: 21px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 11px;
+    }
+
+    .software-text h3 {
+        max-width: 382px;
+        font-size: 1.2rem;
+        line-height: 21px;
+    }
+
+    .banner-img {
+        max-width: 340px;
+        margin-top: 38px;
+    }
+
+    .companies-text h2 {
+        font-size: 1.5rem;
+        line-height: 39px;
+        padding-bottom: 8px;
+    }
+
+    .container-card {
+        padding-top: 40px;
+    }
+
+    .container-software {
+        padding: 50px;
+    }
+
+    .end-text_1 p {
+        margin-left: 120px;
+    }
+
+    .footer-text h4 {
+        font-size: 1.5rem;
+        line-height: 40px;
+    }
+
+    .button-5 {
+        padding: 15px 15px;
+        font-size: 15px;
+        margin-top: 25px;
+        margin-bottom: 80px;
+    }
+
+    .bird-img {
+        max-width: 600px;
+    }
+
+    .chief-text h3 {
+        max-width: 341px;
+        font-size: 1rem;
+        line-height: 22px;
+    }
+
+    .logo-companies {
+        max-width: 60%;
+    }
+
+    .container-article {
+        padding: 30px 30px;
+    }
+
+    .article-text_2 h2 {
+        font-size: 1rem;
+        line-height: 20px;
+    }
+
+    .article-text_3 p {
+        font-size: 0.7rem;
+        line-height: 16px;
+    }
+
+    .start {
+        font-size: 1rem;
+        line-height: 64px;
+    }
+
+    .article-images {
+        max-width: 319px;
+    }
+
+    .container-article {
+        padding: 20px 30px;
+    }
+
+    .card__description {
+        font-size: 0.8rem;
+        line-height: 18px;
+    }
+
+    .card__title {
+        font-size: 1.2rem;
+        line-height: 18px;
+        padding: 20px;
+    }
+
+    .col-4 {
+        margin-bottom: 0;
+    }
+
+    .card-img {
+        padding-top: 0px;
+    }
+
+    .container-software {
+        padding: 25px;
+    }
+
+    .software-text h3 {
+        max-width: 194px;
+        font-size: 1rem;
+        line-height: 19px;
+    }
+}
+
+@media (max-width: 702px) {
+    body {
+        font-size: 10px;
+    }
+
+    .logo {
+        margin-left: 0;
+    }
+
+    .button {
+        margin-right: 0;
+    }
+
+    header ul {
+        margin-left: 80px;
+    }
+
+    .banner-text h1 {
+        font-size: 1.5rem;
+        line-height: 32px;
+        margin-top: 27px;
+    }
+
+    .banner-text_2 p {
+        font-weight: 400;
+        font-size: 0.7rem;
+        line-height: 0;
+    }
+
+}
+
+@media (max-width: 680px) {
+    body {
+        font-size: 8px
+    }
+
+    .prod-text h2 {
+        font-size: 1rem;
+        text-align: end;
+    }
+
+    .card-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .container-card {
+        padding-bottom: 50px;
+    }
+
+    .col-4 {
+        max-width: 37%;
+    }
+
+    .row-1 {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .card__title-1 {
+        font-size: 1rem;
+        line-height: 0;
+        padding-top: 25px;
+        margin-bottom: 20px;
+    }
+
+    .card__title-1 {
+        padding-top: 20px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .card__description-1 {
+        text-align: center;
+    }
+
+    .learn {
+        font-size: 1rem;
+        line-height: 18px;
+        padding-top: 18px;
+        text-align: center;
+        padding-left: 58px;
+    }
+
+    .col-4 {
+        max-width: 59%;
+        max-height: none;
+        padding: 0;
+    }
+
+    .card-img {
+        padding-top: 40px;
+        text-align: center;
+    }
+
+    .container-chief {
+        margin-top: 20px;
+    }
+
+    .chief-text h3 {
+        max-width: 300px;
+        font-size: 1rem;
+        line-height: 22px;
+    }
+
+    .chief-photo {
+        max-width: 230px;
+    }
+
+    .chief-logo {
+        max-width: 80px;
+    }
+
+    .container-chief {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .frame-1 {
+        max-width: 120px;
+    }
+
+    .next-text h1 {
+        font-size: 1.5rem;
+        margin-top: 0;
+        line-height: 50px;
+        padding-top: 25px;
+    }
+
+    .button-6 {
+        margin-top: 10px;
+        margin-bottom: 40px;
+        padding: 15px 30px;
+    }
+
+    .end-text_1 p {
+        margin-left: 64px;
+    }
+
+    .end {
+        padding: 15px 75px 15px 75px;
+    }
+
+    .footer {
+        padding: 30px 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 8px
+    }
+
+    .banner-img {
+        max-width: 290px;
+        margin-top: 20px;
+    }
+
+    .banner-text h1 {
+        font-size: 1rem;
+        line-height: 22px;
+    }
+
+    .banner-text_1 p {
+        line-height: 17px;
+        font-size: 0.7rem;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .banner-text_2 p {
+        font-size: 0.5rem;
+    }
+
+    .button-3 {
+        padding: 5px 5px;
+        font-size: 0.5rem;
+    }
+
+    .button-4 {
+        padding: 5px 5px;
+        font-size: 0.5rem;
+    }
+
+    .article-text {
+        padding-right: 40px;
+    }
+
+    .article-text_1 {
+        padding-left: 40px;
+    }
+
+    .article-images {
+        max-width: 261px;
+    }
+
+    .prod {
+        padding-left: 50px;
+        padding-top: 30px;
+    }
+
+    .chief-photo {
+        max-width: 183px;
+    }
+
+    .bird-text_1 p {
+        font-size: 1.1rem;
+        line-height: 27px;
+        padding-bottom: 13px;
+    }
+
+    .bird-text h1 {
+        font-size: 1.5rem;
+        padding-top: 30px;
+    }
+
+    .card-img {
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 518px) {
+    body {
+        font-size: 8px
+    }
+
+    header ul {
+        margin-left: 15px;
+    }
+
+    .banner-img {
+        max-width: 240px;
+        margin-top: 20px;
+    }
+
+    .companies-text h2 {
+        font-size: 1rem;
+        line-height: 30px;
+        padding-bottom: 5px;
+    }
+
+    .companies__img {
+        margin: 10px;
+    }
+
+    .col-4 {
+        max-width: 80%;
+    }
+
+    .learn {
+        padding-left: 110px;
+    }
+
+    .container-chief {
+        padding: 20px;
+        max-width: none;
+        display: block;
+        text-align: center;
+    }
+
+    .chief-text h3 {
+        max-width: 460px;
+        margin: 0 auto;
+    }
+
+    .frame-1 {
+        max-width: 90px;
+    }
+
+    .software-text h3 {
+        max-width: 150px;
+        font-size: 0.8rem;
+        line-height: 15px;
+    }
+
+    .software-img {
+        max-width: 60px;
+    }
+
+    .bird-text h1 {
+        font-size: 1.2rem;
+        padding-top: 20px;
+    }
+
+    .bird-text_1 p {
+        max-width: 418px;
+        font-size: 1rem;
+        line-height: 20px;
+        padding-bottom: 5px;
+        margin: 0 auto;
+    }
+
+    .bird-img {
+        max-width: 400px;
+    }
+
+    .button-5 {
+        padding: 10px 10px;
+        font-size: 12px;
+        margin-bottom: 50px;
+    }
+
+    .button-1 {
+        padding: 5px 20px;
+    }
+
+    .button-2 {
+        padding: 5px 20px;
+    }
+
+    .end__logo {
+        max-width: 60px;
+    }
+
+    .end {
+        display: block;
+        text-align: center;
+    }
+
+    .end-text p {
+        margin: 0 auto;
+        font-size: 0.5rem;
+    }
+
+    .end-text_1 p {
+        margin: 0 auto;
+        font-size: 0.5rem;
+    }
+}
+
+@media (max-width: 430px) {
+    body {
+        font-size: 8px
+    }
+
+    header ul {
+        margin-left: 0;
+        padding-left: 10px;
+    }
+
+    .button-1 {
+        padding: 5px 10px;
+    }
+
+    .button-2 {
+        padding: 5px 10px;
+    }
+
+    .banner-img {
+        max-width: 200px;
+        margin-top: 20px;
+    }
+
+    .companies__img {
+        max-width: 70px;
+    }
+
+    .article-text {
+        padding-right: 0;
+    }
+
+    .article-text_1 {
+        padding-left: 0;
+    }
+
+    .container-article {
+        display: block;
+        text-align: center;
+    }
+
+    .card-text h2 {
+        font-size: 1.2rem;
+        margin-bottom: 0;
+    }
+
+    .prod-text h2 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .prod {
+        padding-left: 3px;
+        padding-top: 30px;
+    }
+
+    .software-text h3 {
+        max-width: 120px;
+    }
+
+    .next-text h1 {
+        font-size: 1.2rem;
+        line-height: 30px;
+        padding-top: 20px;
+    }
+
+    .software-img {
+        max-width: 46px;
+    }
+
+    .next-text_1 p {
+        font-size: 1rem;
+        margin: 5px auto;
+    }
+
+    .button-6 {
+        margin-top: 10px;
+        margin-bottom: 25px;
+        padding: 10px 20px;
+        font-size: 0.8rem;
+    }
+
+    .product {
+        padding-top: 0px;
+        line-height: 10px;
+    }
+
+    .nav {
+        font-size: 0.5rem;
+        line-height: 5px;
+    }
+
+    .nav-1 {
+        font-size: 0.5rem;
+        line-height: 5px;
+    }
+}
+    @media (max-width: 375px) {
+        body {
+            font-size: 8px
+        }
+
+        .logo {
+            max-width: 80px;
+        }
+
+        header ul {
+            padding-left: 50px;
+        }
+
+        .banner-img {
+            max-width: 160px;
+            margin-top: 70px;
+        }
+
+        .banner-text_2 p {
+            font-size: 0.4rem;
+        }
+
+        .banner-text_1 p {
+            line-height: 14px;
+            font-size: 0.6rem;
+        }
+
+        .card-text h2 {
+            font-size: 1rem;
+        }
+
+        .banner {
+            padding-bottom: 20px;
+        }
+
+        .learn {
+            padding-left: 87px;
+        }
+
+        .software-text h3 {
+            font-size: 0.6rem;
+            line-height: 11px;
+        }
+
+        .frame-1 {
+            max-width: 85px;
+            margin-right: 10px;
+        }
+
+        .software-img {
+            max-width: 35px;
+        }
+    }
